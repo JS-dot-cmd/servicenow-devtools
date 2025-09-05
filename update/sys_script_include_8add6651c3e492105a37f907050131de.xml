@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns true if the given application is a "shared" application - i.e. whether it has a record in x_snc_devtools_shared_application pointing to it. False if not.</description>
+        <mobile_callable>false</mobile_callable>
         <name>IsAppShared</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function IsAppShared(vApp)
 {
 	var grApp = GetAppRecord(vApp);
@@ -35,5 +37,6 @@
         <sys_update_name>sys_script_include_8add6651c3e492105a37f907050131de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 13:53:55</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

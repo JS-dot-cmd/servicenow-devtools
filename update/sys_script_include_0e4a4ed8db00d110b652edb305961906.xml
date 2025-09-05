@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns the URI of a table's list in the instance.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetInstanceListURI</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetInstanceListURI(strTable,strView,strEncodedQuery,nFirstRow)
 {
 	strTable = GetStringValue(strTable);
@@ -48,5 +50,6 @@
         <sys_update_name>sys_script_include_0e4a4ed8db00d110b652edb305961906</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:40</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

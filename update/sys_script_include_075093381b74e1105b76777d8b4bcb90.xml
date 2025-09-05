@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Runs the AppInstall function of the given app and of all its dependencies.</description>
+        <mobile_callable>false</mobile_callable>
         <name>InstallApp</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function InstallApp(vApp, bStopOnError)
 {
 	var timeStart = GetTimeNow();
@@ -143,5 +145,6 @@
         <sys_update_name>sys_script_include_075093381b74e1105b76777d8b4bcb90</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-08 12:33:59</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

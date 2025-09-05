@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Sets a single value in a json object in a field on a given record. If bGhost is set to true, no business rules are executed as a result of the update.</description>
+        <mobile_callable>false</mobile_callable>
         <name>RecordSetValueJson</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function RecordSetValueJson(
 	strTable,strSysId,strField,vValue,
 	bGhost,
@@ -42,5 +44,6 @@
         <sys_update_name>sys_script_include_aea860418351561000d5ccc0deaad385</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-10-15 12:41:37</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

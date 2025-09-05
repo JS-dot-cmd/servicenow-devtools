@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Shorthand to get a single value from a record from a table based on its sys_id.</description>
+        <mobile_callable>false</mobile_callable>
         <name>RecordGetValue</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function RecordGetValue(strTable,strSysId,strColumn)
 {
 	var grRecord = GetRecord(strTable,strSysId);
@@ -28,5 +30,6 @@
         <sys_update_name>sys_script_include_94bd7dfe1bbef810edf3642aab4bcb84</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:52</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

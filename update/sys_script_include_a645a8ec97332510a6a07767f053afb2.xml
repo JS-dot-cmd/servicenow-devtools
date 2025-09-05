@@ -7,7 +7,9 @@
         <client_callable>false</client_callable>
         <description>Binds all functions of the given object to the given object. This is needed to access the "this" object within every function of the class.&#13;
 Javascript is inherently broken and the fact that this function is even necessary can serve as proof.</description>
+        <mobile_callable>false</mobile_callable>
         <name>BindAllFunctionsToThis</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function BindAllFunctionsToThis(vValue)
 {
 	if (GetType(vValue) != 'Object')
@@ -35,5 +37,6 @@ Javascript is inherently broken and the fact that this function is even necessar
         <sys_update_name>sys_script_include_a645a8ec97332510a6a07767f053afb2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:54</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

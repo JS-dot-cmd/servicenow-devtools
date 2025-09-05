@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Renders a script into an html output that causes a page redirect to the given url. </description>
+        <mobile_callable>false</mobile_callable>
         <name>HtmlRenderRedirect</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function HtmlRenderRedirect(strUrl)
 {
 	strUrl = GetStringValue(strUrl);
@@ -29,5 +31,6 @@
         <sys_update_name>sys_script_include_7a79e4df1b9d7d10cd6153d16b4bcb7c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:49</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

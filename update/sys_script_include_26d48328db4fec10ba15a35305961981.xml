@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Renders a date/time value as an UTC ISO string.</description>
+        <mobile_callable>false</mobile_callable>
         <name>RenderDateTime</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function RenderDateTime(vDateTime)
 {
 	if (vDateTime === false || vDateTime == null || vDateTime == undefined)
@@ -51,5 +53,6 @@
         <sys_update_name>sys_script_include_26d48328db4fec10ba15a35305961981</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-01 07:13:33</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

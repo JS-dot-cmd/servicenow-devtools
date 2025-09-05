@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Renders the given time as an UTC iso string.</description>
+        <mobile_callable>false</mobile_callable>
         <name>RenderTime</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function RenderTime(vDateTime)
 {
 	var strDatetime = RenderDateTime(vDateTime);
@@ -24,5 +26,6 @@
         <sys_update_name>sys_script_include_3fd17d06db628d10b652edb305961911</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:44</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

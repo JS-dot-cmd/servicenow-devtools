@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Performs an instance scan using a specific suite on an application  and all of the apps dependencies.</description>
+        <mobile_callable>false</mobile_callable>
         <name>InstanceScanSuiteOnAppWithDependencies</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function InstanceScanSuiteOnAppWithDependencies(strSuiteSysId, vApp, bDetailed)
 {
 	if (InstanceScanIsRunning() == true)
@@ -60,5 +62,6 @@
         <sys_update_name>sys_script_include_802fec781b8da1505b76777d8b4bcbfc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-09-10 11:58:25</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

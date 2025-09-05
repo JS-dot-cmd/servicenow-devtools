@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Executes the update member function of a glide record in global scope. If bGhost is set to true, the record update will not trigger any system field updates or workflows.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GlideRecordUpdate</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GlideRecordUpdate(record, bGhost)
 {
 	if (IsValidRecord(record) == false)
@@ -42,5 +44,6 @@
         <sys_update_name>sys_script_include_cd625643db2c74943c6c09c2ba961904</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:58</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

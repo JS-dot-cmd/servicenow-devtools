@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns true if the given sys_dictionary record is a read-only "cloned" record of a "TTP" ("Table per Partition") table.</description>
+        <mobile_callable>false</mobile_callable>
         <name>IsClonedDictionary</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function IsClonedDictionary(grSD)
 {
 	if (IsValidRecord(grSD) == false)
@@ -31,5 +33,6 @@
         <sys_update_name>sys_script_include_0437b7dd1b2806100e0b2f836b4bcb89</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:39</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

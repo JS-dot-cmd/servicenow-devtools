@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns the current record based on either an existing current object or (if not available) based on the current url.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetCurrentRecord</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetCurrentRecord()
 {
 	if (typeof current != 'undefined')
@@ -49,5 +51,6 @@
         <sys_update_name>sys_script_include_f3ebc5941b18f950cd6153d16b4bcb59</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:59:01</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

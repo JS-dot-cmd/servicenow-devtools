@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Calls the function restoreLocation on the given GlideRecord object. This function is yet another cross-scope wrapper for a function that is not available in scope for no reason.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GlideRecordRestoreLocation</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GlideRecordRestoreLocation(grRecord)
 {
 	if (IsValidRecord(grRecord) == false)
@@ -28,5 +30,6 @@
         <sys_update_name>sys_script_include_f56233ec1b7131100e0b2f836b4bcba7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:59:02</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

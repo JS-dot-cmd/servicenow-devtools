@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns true if the given parameter is an integer value, returns false if not.</description>
+        <mobile_callable>false</mobile_callable>
         <name>IsInteger</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function IsInteger(vValue)
 {
 	if (GetType(vValue) != 'number')
@@ -32,5 +34,6 @@
         <sys_update_name>sys_script_include_38f2f5b01b0395105b76777d8b4bcb3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:44</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns the current url if possible, if not it returns the instance root url.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetCurrentUrl</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetCurrentUrl()
 {
 	var strUri = '';
@@ -33,5 +35,6 @@
         <sys_update_name>sys_script_include_bcd41d5c1b18f950cd6153d16b4bcbcd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:56</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

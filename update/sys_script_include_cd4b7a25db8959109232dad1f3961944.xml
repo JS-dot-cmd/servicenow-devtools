@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns the GlideRecord object that contains the script from which GetScriptRecord() is called or if nStackLevel is greater than 0, the record that contains the script that contains the code of the corresponding stack level.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetScriptRecord</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetScriptRecord(nStackLevel)
 {
 	nStackLevel = GetIntegerValue(nStackLevel);
@@ -32,5 +34,6 @@
         <sys_update_name>sys_script_include_cd4b7a25db8959109232dad1f3961944</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:58</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

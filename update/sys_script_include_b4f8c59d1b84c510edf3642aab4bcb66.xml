@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Queries an existing record based on query values or inserts a new record into a table with the specified values if the record does not exist. The bUpdate parameter controls if the existing record should be updated with the given values or not.</description>
+        <mobile_callable>false</mobile_callable>
         <name>RecordQueryOrInsert</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function RecordQueryOrInsert(strTable,query,values,bUpdate)
 {
 	strTable = GetStringValue(strTable);
@@ -62,5 +64,6 @@
         <sys_update_name>sys_script_include_b4f8c59d1b84c510edf3642aab4bcb66</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:55</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

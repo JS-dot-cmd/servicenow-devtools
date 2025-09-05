@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Get a group record based on sys_id or name.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetGroupRecord</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetGroupRecord(vGroup)
 {
 	var grGroup = GetRecord('sys_user_group',vGroup);
@@ -38,5 +40,6 @@
         <sys_update_name>sys_script_include_84e26c751bba4610063ddc61ab4bcb24</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:50</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

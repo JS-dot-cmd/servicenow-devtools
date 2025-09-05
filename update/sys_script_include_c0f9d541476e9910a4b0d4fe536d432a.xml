@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Strips postfixes indicating unfinished work from an application name based on the given string.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetCleanAppName</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetCleanAppName(strAppName)
 {
 	strAppName = GetStringValue(strAppName);
@@ -29,5 +31,6 @@
         <sys_update_name>sys_script_include_c0f9d541476e9910a4b0d4fe536d432a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:56</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

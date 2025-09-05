@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns an object with "username", "password" and "apikey" values (which are populated depending on the credential type) if the given credential alias can be resolved, otherwise false.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetCredentialFromAlias</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetCredentialFromAlias(strCredentialAliasId)
 {
 	var grAlias = new GlideRecord('sys_alias');
@@ -35,5 +37,6 @@
         <sys_update_name>sys_script_include_66e618d2db43c250f0f1d03cd39619fa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:47</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

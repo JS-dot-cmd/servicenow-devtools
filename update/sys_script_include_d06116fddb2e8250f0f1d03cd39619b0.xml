@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns the dictionary record based on the given table and column name. The function can also handle elements (columns) that are defined for parent tables.</description>
+        <mobile_callable>false</mobile_callable>
         <name>GetDictionaryRecord</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function GetDictionaryRecord(strTable, strElement)
 {
 	strTable = GetStringValue(strTable);
@@ -51,5 +53,6 @@
         <sys_update_name>sys_script_include_d06116fddb2e8250f0f1d03cd39619b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-02 11:10:42</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

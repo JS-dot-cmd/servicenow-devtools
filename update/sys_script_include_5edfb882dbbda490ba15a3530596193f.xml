@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Returns true if the given string is a valid version number, false if not.</description>
+        <mobile_callable>false</mobile_callable>
         <name>IsValidVersion</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function IsValidVersion(strVersion,bSemantic)
 {
 	strVersion = GetStringValue(strVersion);
@@ -41,5 +43,6 @@
         <sys_update_name>sys_script_include_5edfb882dbbda490ba15a3530596193f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-27 16:24:38</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Runs a Instance Scan script only Check.</description>
+        <mobile_callable>false</mobile_callable>
         <name>InstanceScanCheckScriptOnly</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function InstanceScanCheckScriptOnly(strCheckSysId, bDetailed)
 {
 	if (InstanceScanIsRunning() == true)
@@ -59,5 +61,6 @@
         <sys_update_name>sys_script_include_4ad1dc12dbaa0650f0f1d03cd3961946</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-08 14:56:33</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

@@ -6,7 +6,9 @@
         <caller_access/>
         <client_callable>false</client_callable>
         <description>Increases a value by the given amount in an object (or array) that is (or is not yet) part of an recursive object (or array) without generating errors if the object (or array) does not exist yet. In case of an array, any preceding elements are added as null if they do not yet exist.</description>
+        <mobile_callable>false</mobile_callable>
         <name>SetValueIncrement</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function SetValueIncrement(vValueToAdd, vObject, vKey1, vKey2, vKey3, vKey4, vKey5, vKey6, vKey7, vKey8, vKey9, vKey10)
 {
 	var vCurrentValue = GetValue(vObject, vKey1, vKey2, vKey3, vKey4, vKey5, vKey6, vKey7, vKey8, vKey9, vKey10);
@@ -25,5 +27,6 @@
         <sys_update_name>sys_script_include_13b088bb1bc10e10063ddc61ab4bcb9a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-08-28 12:58:40</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>

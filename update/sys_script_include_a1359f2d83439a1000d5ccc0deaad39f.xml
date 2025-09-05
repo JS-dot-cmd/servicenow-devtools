@@ -7,7 +7,9 @@
         <client_callable>false</client_callable>
         <description>Transliterates the given text string into latin letters.&#13;
 Currently only Ukrainian is supported.</description>
+        <mobile_callable>false</mobile_callable>
         <name>Transliterate</name>
+        <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[function Transliterate(strText) 
 {
 	var strResult = GetStringValue(strText);
@@ -144,5 +146,6 @@ Currently only Ukrainian is supported.</description>
         <sys_update_name>sys_script_include_a1359f2d83439a1000d5ccc0deaad39f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-01-19 13:18:22</sys_updated_on>
+        <x_snc_devtools_sys_ui_script/>
     </sys_script_include>
 </record_update>
